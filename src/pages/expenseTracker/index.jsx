@@ -44,7 +44,7 @@ export const expenseTracker = () => {
 
   return (
     <>
-      <div className="recetario">
+      <div className="expenseTracker">
         <div className="container">
           <h1>{name}'s Expense Tracker </h1>
           <div className="balance">
