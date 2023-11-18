@@ -8,7 +8,7 @@ import "./styles.css";
 import { signOut } from "firebase/auth";
 import { auth } from "../../config/firebase-config";
 
-export const expenseTracker = () => {
+export const Recetario = () => {
   const { addTransaction } = useAddTransaction();
   const { transactions, transactionTotals } = useGetTransactions();
   const { name, profilePhoto } = useGetUserInfo();
